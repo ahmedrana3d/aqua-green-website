@@ -51,11 +51,16 @@ const slider_Style = {
 
 <HomeSection2 firstHeader={"02.Extravaganzas"} headerPara={"Realm of Fantastical Services"} subHead={"Magical Cleaning and Janitorial Services"} subHeadPara={"Our team of superheroes (disguised as ordinary cleaners) with enchanted dusters, spellbinding cleaning potions, super powered vacuum cleaners, magic mops and fairy dust will transform your office or commercial, residential building into a shining beacon of cleanliness and productivity."}/>
 
+<div className=' bg-transparent' >
 
 <section id='slider-section' style={slider_Style}>
 <HomeSection3/>
 </section>
-<div className='bg-[#ebf7f8]'>
+
+</div>
+<div className=' bg-[#ebf7f8]'>
+
+
 
 <HomeSection4/>
 
@@ -71,7 +76,9 @@ const slider_Style = {
 
 
 <HomeSection5/>
+
 </div>
+
 
 
 

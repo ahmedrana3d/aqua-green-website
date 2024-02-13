@@ -2,7 +2,7 @@ import React from 'react'
 
 const HomeSection4 = ({firstHeader  , headerPara, subHead, subHeadPara }) => {
   return (
-<div className=' mt-8 mx-1 '>
+<div className='  mx-1 '>
 
 <div className='   w-full justify-between  flex gap-7 flex-wrap '>
     <div  className=' text-slate-800 first-letter:text-teal-600 text-6xl  font-semibold font-serif '>04. Friendly Customer <br /> Support</div>

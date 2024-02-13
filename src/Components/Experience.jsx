@@ -18,12 +18,12 @@ import { ThirdCharacterHappy } from "./Models/ThirdCharacterHappy";
 import { ThirdModelFix } from "./Models/ThirdModelFix";
 import { useThree } from "@react-three/fiber";
 import extension from "@theatre/r3f/dist/extension";
-import AquaProjectState from "../assets/AquaAnimationTake2.json";
+import AquaProjectState from "../assets/AquaSliderAnimation.json";
 import { useControls } from "leva";
 import studio from "@theatre/studio";
 
-studio.initialize();
-studio.extend(extension);
+// studio.initialize();
+// studio.extend(extension);
 
 const Experience = () => {
   const sheet = getProject("Demo Project", { state: AquaProjectState }).sheet(
